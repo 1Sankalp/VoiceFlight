@@ -1,24 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Voice Flight Game
 
-## Getting Started
+A voice-controlled flying game inspired by Flappy Bird, built with Next.js and Web Audio API.
 
-First, run the development server:
+## How to Play
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Allow microphone access when prompted
+2. Click the "Start Game" button
+3. Make sounds to control the red plane:
+   - Louder sounds make the plane fly higher
+   - Quieter sounds or silence make the plane descend
+4. Navigate through the green obstacles
+5. Try to achieve the highest score!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Game Controls
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Voice volume controls the plane's height
+- Click "Play Again" after crashing to restart
+- Your high score is saved during the session
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development Setup
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Technical Requirements
+
+- Modern web browser with microphone support
+- Microphone access permission
+- JavaScript enabled
+
+## Built With
+
+- Next.js
+- TypeScript
+- TailwindCSS
+- Web Audio API
+- HTML5 Canvas
+
+## Features
+
+- Voice-controlled gameplay
+- Real-time audio processing
+- Score tracking
+- Instant restart
+- Responsive design
+- No login required
 
 ## Learn More
 
@@ -34,3 +69,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# VoiceFlight
